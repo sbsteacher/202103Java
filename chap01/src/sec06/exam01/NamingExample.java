@@ -10,4 +10,8 @@ public class NamingExample {
 	변수명 네이밍 규칙 p.31 작성규칙!!
 
  */
+	
+	public static void main(String[] aaa) {
+		//int int;
+	}
 }

@@ -2,12 +2,21 @@ package sec06.exam01;
 
 //원시타입 vs 참조타입(Reference Type)
 public class PrimitiveTypeExample {
+	
 	public static void main(String[] args) {
 		//총 8개
-		
+		sss1 = 10;
 		//byte, short, int, long
 		//float, double
 		//byte < short < int < long < float < double
+		
+		short sss1 = 10;
+		long lll2 = 10;
+		long result = lll2 + (long)sss1;
+			
+		
+		sss1 = 10;
+		
 		byte var1 = 0; //MAX: 127
 		short var2 = -129;
 		var1 = (byte)var2;
@@ -22,4 +31,8 @@ public class PrimitiveTypeExample {
 		//원시타입은 리터럴값을 저장한다.
 		
 	}
+
+
+
+
 }

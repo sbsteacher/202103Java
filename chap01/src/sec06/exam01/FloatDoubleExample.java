@@ -6,8 +6,8 @@ public class FloatDoubleExample {
 	public static void main(String[] args) {
 		//float f = (float)10.1;
 		//float f = 10.1f;
-		float f = 10.2F;
-		double d = 10.2;
+		float f = 10.2f;
+		double d = 10.2D;
 		
 		//10.1234565767
 		//10.1234578345
