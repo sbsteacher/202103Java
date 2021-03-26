@@ -27,7 +27,7 @@ public class OperatorExam {
 		
 		System.out.println("result2: " + result2);
 		
-		int mod = 10 % 4;
+		int mod = 10 % 3;
 		System.out.println("mod : " + mod);
 		
 		int odd = 11 % 2;
@@ -36,7 +36,8 @@ public class OperatorExam {
 		System.out.println("even : " + even);
 		
 		System.out.println("------------------");
-		int n3 = -2;
+		//int n3 = -2;
+		int n3 = 2 * -1;
 		System.out.println("n3 : " + (-n3));
 	}
 }

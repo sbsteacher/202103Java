@@ -5,7 +5,7 @@ public class PrimitiveTypeExample {
 	
 	public static void main(String[] args) {
 		//총 8개
-		sss1 = 10;
+		//sss1 = 10;
 		//byte, short, int, long
 		//float, double
 		//byte < short < int < long < float < double

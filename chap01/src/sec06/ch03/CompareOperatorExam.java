@@ -27,9 +27,9 @@ public class CompareOperatorExam {
 		System.out.println("3.5 == 3.5f : " + (3.5 == 3.5f));
 		
 		System.out.println("3.2 == 3.2f : " + (3.2 == 3.2f));
-		System.out.println("(float)3.2d == 3.2f : " + ((float)3.2d == 3.2f));
+		System.out.println("(float)3.2d == 3.2f : " + ((float)3.2 == 3.2f));
 		
-		System.out.println(Double.compare(3.21, 3.21f));
+		System.out.println(Double.compare(1.21, 3.21));
 		
 		// <, >, >=, <=, ==, != 원시형 숫자타입 (include char)
 		
