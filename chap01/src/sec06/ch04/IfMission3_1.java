@@ -8,7 +8,6 @@ public class IfMission3_1 {
 		final int DIFF = 9;
 		System.out.println("SCORE : " + SCORE);
 
-
 		//91이상 A : 9 > 0
 		//81이상 B : 8 > 1
 		//71이상 C
