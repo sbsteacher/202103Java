@@ -4,6 +4,7 @@ public class ForMission3 {
 
 	public static void main(String[] args) {
 		int star = (int)(Math.random() * 6 + 5);
+		//0~5 > 5~10
 		System.out.println("star : " + star);
 		//star는 5~10사이 랜덤값 나올 수 있게 해주시구요.
 		
