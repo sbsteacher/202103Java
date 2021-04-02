@@ -7,7 +7,7 @@ public class ArrayMission {
 		//모든방에 정수값 20을 세팅해 주세요. (for문 활용하여)
 		
 		int num = 10;
-		int[] intArr = new int[10];
+		int[] intArr = new int[100];
 				
 //		intArr[0] = 20;
 //		intArr[1] = 20;
