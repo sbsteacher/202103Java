@@ -52,10 +52,6 @@ public class VendingMachineMission {
 		}		
 		System.out.println("종료!!");
 		scan.close();
-		
-		
-		
-		
 	}
 
 }
