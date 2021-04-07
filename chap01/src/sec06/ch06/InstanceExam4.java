@@ -15,7 +15,7 @@ public class InstanceExam4 {
 		System.out.println("car1 : " + car1);
 		System.out.println("car2 : " + car2);
 		
-		car1 = car2;
+		//car1 = car2;
 		
 		System.out.println(car1 == car2);
 		
@@ -35,10 +35,10 @@ public class InstanceExam4 {
 }
 
 class Car {
-	String name;
+	protected String name;
 	int cc;
 	
-	void drive() {
+	protected void drive() {
 		System.out.printf("%s는 달린다.\n", name);
 	}
 	
@@ -46,3 +46,9 @@ class Car {
 		System.out.printf("%s는 멈춘다.\n", name);
 	}
 }
+
+
+
+
+
+

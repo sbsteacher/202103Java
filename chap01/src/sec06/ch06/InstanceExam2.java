@@ -8,11 +8,12 @@ public class InstanceExam2 {
 		Dog d1 = new Dog();
 		Dog d2 = d1;
 		
-		d1.name = "뽀삐";
-		d2.name = "돌쇠";
+		d1.name = "돌쇠";
+		d2.name = "뽀삐";
+		d2.name = "ㅋㅋ";
 		
-		d1.bark();
 		d2.bark();
+		d1.bark();
 	}
 
 }

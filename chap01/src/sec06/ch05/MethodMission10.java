@@ -10,14 +10,15 @@ public class MethodMission10 {
 		String[] menuNmArr = {"콜라", "사이다", "환타", "스프라이트", "망고주스", "포도주스"};
 		int[] menuPriceArr = {1000, 1200, 1300, 1500, 2000, 3000};		
 
-		Drink[] drinkArr = new Drink[6];
+		Drink[] drinkArr = new Drink[menuNmArr.length];
 		
 		for(int i=0; i<drinkArr.length; i++) {
 			Drink a = new Drink();
+		
 			a.nm = menuNmArr[i];
 			a.price = menuPriceArr[i];
 			
-			drinkArr[i] = a;			
+			drinkArr[i] = a;
 		}
 		
 		printMenu3(drinkArr);
