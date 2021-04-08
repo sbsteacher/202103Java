@@ -24,11 +24,13 @@ public class CapsuleExam {
 	}
 
 }
-
+//생성자 vs 메소드
+//1. 생성자 이름은 클래스 이름이랑 같아야 함
+//2. 리턴 타입이 없음.
 class Human {
 	private int age;
 	private String name;
-	
+		
 	Human() {
 		this(10);
 	}

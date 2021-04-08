@@ -20,3 +20,17 @@ public class StaticExam {
 class Toy {
 	static String name;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
