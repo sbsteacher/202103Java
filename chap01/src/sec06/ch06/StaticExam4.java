@@ -23,16 +23,17 @@ class CalcStatic2 {
 		return num1 + num2;
 	}
 }
+
 class CalcInstance2 {
 	int num1;
 	int num2;
 	
-	int sum() {
+	int sum() {		
 		return num1 + num2;
 	}
 	
-	static int sum(int n1, int n2) {
-		return n1 + n2;
+	static int sum(int num1, int n2) {
+		return num1 + n2;
 	}
 }
 

@@ -16,6 +16,10 @@ public class StaticExam3 {
 }
 
 class CalcStatic {
+	int sum2(int num1, int num2) {
+		return num1 + num2;
+	}
+	
 	static int sum(int num1, int num2) {
 		return num1 + num2;
 	}
