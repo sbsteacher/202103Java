@@ -1,13 +1,14 @@
 package sec06.ch06.blackjack;
 
 public class CardDeck {
-	public final static String[] CARD_PATTERNS = {"Spades", "Hearts", "Diamonds", "Clubs"};
-	public final static String[] CARD_SYMBOLS = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+	public static final String[] CARD_PATTERNS = {"Spades", "Hearts", "Diamonds", "Clubs"};
+	public static final String[] CARD_SYMBOLS = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
 	
 	private final int EACH_CARD_LEN = 13;	
-	private final Card[] CARD_ARR;	
+	private final Card[] CARD_ARR;
 	public CardDeck() {
 		CARD_ARR = new Card[CARD_PATTERNS.length * EACH_CARD_LEN];
+		System.out.println(CARD_PATTERNS.length);		
 		init2();
 	}
 	
