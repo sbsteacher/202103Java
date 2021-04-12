@@ -5,8 +5,9 @@ public class CardDeck {
 	public static final String[] CARD_SYMBOLS = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
 	
 	private final int EACH_CARD_LEN = 13;	
-	private final Card[] CARD_ARR;
-	public CardDeck() {
+	private final Card[] CARD_ARR;	
+	
+	public CardDeck() {		
 		CARD_ARR = new Card[CARD_PATTERNS.length * EACH_CARD_LEN];
 		System.out.println(CARD_PATTERNS.length);		
 		init2();
@@ -38,8 +39,30 @@ public class CardDeck {
 				CARD_ARR[idx++] = new Card(CARD_PATTERNS[i], symbol);
 				//CARD_ARR[(i * EACH_CARD_LEN) + (z-1)] = new Card(CARD_PATTERNS[i], symbol);
 			}
-		}		
+		}
 	}
+	
+	private int getRandomIdx() {
+		return (int)(Math.random() * CARD_ARR.length);
+	}
+	
+	public Card getOneCard() {
+		Card c = null;
+		int idx = 0;
+		do {
+			idx = getRandomIdx();
+			c = CARD_ARR[idx];
+		} while (c == null);		
+		CARD_ARR[idx] = null;		
+		return c;
+	}
+	
+	public void printAll() {
+		for(Card c : CARD_ARR) {
+			System.out.println(c);
+		}
+	}
+	
 }
 
 
