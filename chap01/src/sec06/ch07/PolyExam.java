@@ -6,9 +6,8 @@ public class PolyExam {
 	2. 자식타입은 부모 객체 가리킬 수 없다. 
 	3. 변수타입은 메소드 호출 여부만 결정!! 
 	   (자기가 아는 것만 호출가능)
-	   호출이 되었다면 실행되는 것은 객체 기준!!!
-	
- */
+	   호출이 되었다면 실행되는 것은 객체 기준!!!	
+*/
 	public static void main(String[] args) {
 		Car car1 = new Bus();
 		Car car2 = new Car();
